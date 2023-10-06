@@ -1,0 +1,62 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='author' content='VIJAY THAPA')
+  meta(name='description' content='HOUSE RENTAL SYSTEM')
+  meta(name='keywords' content='Give Your Keywords for SEO')
+  title HOUSE RENTAL SYSTEM
+  // ADING CSS HERE
+  link(rel='stylesheet' type='text/css' href='assets/css/style.css')
+// Header Starts HERE
+header.header
+  .wrapper
+    h1 HOUSE RENTAL SYSTEM
+// Header Ends HERE
+// Menu Starts HERE
+nav.menu
+  .wrapper
+    ul
+      a(href='index.html')
+        li Home
+      a(href='about.html')
+        li About Us
+      a(href='#')
+        li Houses
+      a(href='contact.html')
+        li Contact Us
+      a(href='login.html')
+        li Log In
+// Menu Ends HERE
+// Main Body Starts HERE
+.main
+  .wrapper
+    // Contact Detail Entry
+    .booking-details
+      h3 Contact Us
+      form
+        span.name First Name
+        input(type='text' name='first_name' placeholder='First Name Please')
+        br
+        span.name Last Name
+        input(type='text' name='last_name' placeholder='Last Name Please')
+        br
+        span.name E-Mail
+        input(type='email' name='email' placeholder='E-Mail Please')
+        br
+        span.name Conatct No.
+        input(type='tel' name='contact' placeholder='Contact Number Please')
+        br
+        span.name Address
+        textarea(name='address' placeholder='Your Address Please')
+        br
+        input(type='submit' name='submit' placeholder='SEND')
+        input(type='reset' name='reset' placeholder='RESET')
+// Main Body Ends HERE
+// Footer Starts HERE
+footer.footer
+  .wrapper
+    p
+      | &copy; 
+      a(href='#') House Rental System
+      | . All rights reserved 2017.
+// Footer Ends HERE
